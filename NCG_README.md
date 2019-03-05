@@ -21,7 +21,7 @@ Dotscience
 
 
 
-## **`pull command`:** `docker pull nvcr.io/nvidia/dotmesh/dotscience-runner:latest` #TODO
+**`pull command`:** `docker pull nvcr.io/nvidia/dotmesh/dotscience-runner:latest` #TODO update when image pushed
 
 ### Using Dotscience
 To use Dotscience, you need to intall the Dotscience container image on your chosen runner, and annotate your model code with the Dotscience Python library. If your model is defined and trained in a Jupyter notebook, you can edit the code via the Dotscience web interface Jupyterlab instance. Any additional files, including training data, can be added to the Dotscience web interface to place them under version control.
@@ -52,7 +52,7 @@ $ TOKEN = $TOKEN  # replace the second 'TOKEN with your copied value
     docker run --name dotscience-runner -d -e TOKEN=$TOKEN \
     --restart always -v /var/run/docker.sock:/var/run/docker.sock \
     -v dotscience-task-spool:/spool \
-    nvcr.io/nvidia/dotmesh/dotscience-runner:latest #TODO
+    nvcr.io/nvidia/dotmesh/dotscience-runner:latest #TODO update image location
 ```
 
 Note that the `dotscience-runner` container will boot up a couple more Docker containers on your runner. 
@@ -62,7 +62,7 @@ Note that the `dotscience-runner` container will boot up a couple more Docker co
 6. Visualise your model metrics and provenance graph in the Dotscience web interface. Access collaboration features, including Github-style fork and merge, and version control for massive datasets.
 
 ## Documentation
-#TODO add link
+#TODO add link when docs published
 
 ## Licensing
 Dotscience is commerical software for enterprises. Please talk to sales@dotscience.com for information about signing up.
