@@ -43,12 +43,12 @@ Models can be defined and trained in Jupyter notebooks, accessed via the Dotscie
 3. If you want to run a GPU-accelerated model, tick the box on the runner page marked **GPU runner**. #TODO
 3. SSH into your runner. Store the extracted `TOKEN` as an environment variable there, named `TOKEN`:
 ```
-$ TOKEN = $TOKEN  # replace the second 'TOKEN with your copied value
+$ export TOKEN="<your token>"  # replace <your token> with your copied value
 ```
 4.  Run the following:
 
 ```
-    docker run --name dotscience-runner -d -e TOKEN=$TOKEN \
+docker run --name dotscience-runner -d -e TOKEN=$TOKEN \
     --restart always -v /var/run/docker.sock:/var/run/docker.sock \
     -v dotscience-task-spool:/spool \
     nvcr.io/nvidia/dotmesh/dotscience-runner:latest #TODO update image location
