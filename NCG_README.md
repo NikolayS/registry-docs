@@ -31,7 +31,7 @@ Models can be defined and trained in Jupyter notebooks, accessed via the Dotscie
 
 ## Run Dotscience
 ### Requirements
-* A runner (any cloud machine) running either Ubuntu or CentOS 7, with Docker installed.
+* A runner (any cloud machine) running either Ubuntu 16.04+ or CentOS 7, with Docker installed.
 
 * If you want to run on your runner's GPUs, then you will need to have installed `nvidia container runtime`. For installation instructions, see the [NVIDIA documentation](https://github.com/NVIDIA/nvidia-container-runtime).
 
