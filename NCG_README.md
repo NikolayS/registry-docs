@@ -62,7 +62,7 @@ Note that the `dotscience-runner` container will boot up a couple more Docker co
 7. Visualise your model metrics and provenance graph in the Dotscience web interface. Access collaboration features, including Github-style fork and merge, and version control for massive datasets.
 
 ## Documentation
-#TODO add link when docs published
+[https://docs.dotscience.com/](https://docs.dotscience.com/)
 
 ## Community
 [Join the Dotscience community Slack here.](https://dotmesh-community.slack.com/join/shared_invite/enQtMjU0NzczMTQ2MDgxLTM0MGJhNDcxNWQ4ZWE0OWMxMTE4NDg4ZmY5ZDRiMmQyYzIwYTIyMWNiYTIxMWMyMGUzNDI5YTc0N2JiMzg5OGE)
