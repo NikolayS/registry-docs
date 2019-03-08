@@ -12,16 +12,15 @@ Dotscience
 Dotscience
 
 ### Latest Tag
-`latest`
+`0.0.4`
 
 ### Modified
- #TODO
+ Feb 11 2019
 ### Size
- #TODO
+ 16.3 MB
 
 
-
-**`pull command`:** `docker pull nvcr.io/nvidia/dotmesh/dotscience-runner:latest` #TODO update when image pushed
+**`pull command`:** `docker pull nvcr.io/nvidia/dotmesh/dotscience-runner:0.0.4`
 
 ### Using Dotscience
 To use Dotscience, you need to intall the Dotscience container image on your chosen runner, and annotate your model code with the Dotscience Python library. Any additional files, including training data, required by the model can be added to the Dotscience web interface to place them under version control.
