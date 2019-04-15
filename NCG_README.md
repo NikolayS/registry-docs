@@ -1,11 +1,12 @@
 # Dotscience
 
 ### Description
-[Dotscience](https://dotscience.com/) allows teams to put their machine learning development and deployment into a robust model management framework. Within the framework, models and all accompanying files are versioned and their provenance is auto-recorded throughout training and into deployment. 
+[Dotscience](https://dotscience.com/) allows teams to put their machine learning development and deployment into a robust model management framework. Within the framework, models and all accompanying files and datasets are versioned. The provenance of all files is auto-recorded throughout training and into deployment. Additionally, metadata about any runs of a model is auto-recorded. This record allows teams and organizations to reliably keep track of their work, share insights about model behavior, reducing the need to re-execute costly training runs, or reverse-engineer models.
 
-Dotscience tracks the variables of model runs, such as hyperparameter combinations and accuracy metrics, in model training and optimization. This record provides a run history of your team's work, so that team members can easily compare the performance of models using different code, data versions, and hyperparameter combinations. 
+Dotscience tracks the variables of models run in training and optimization, such as their hyperparameter combinations and corresponding accuracy metrics. This record provides a run history of your team's work, so that team members can easily compare the performance of models using different code, data versions, hyperparameter combinations and execution environments, such as hardware accelerator. 
 
-The data can also be visualized on the Dotscience web interface to give insights into model behavior: for instance, to show the effect of a hyperparameter choice on accuracy metrics.
+The run history can also be visualized on the Dotscience web interface to give insights into model behavior: for instance, to show the effect of a hyperparameter choice on accuracy metrics. This helps teams decide the next experiment to try. The provenance graph of each file used can also be viewed. Models can be deployed via the web interface to production environments.
+
 
 ### Publisher
 Dotscience
